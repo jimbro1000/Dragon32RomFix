@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "vdg")(type "KiCad")(uri "${KIPRJMOD}/vdg.kicad_sym")(options "")(descr ""))
+  (lib (name "Motorola PIA")(type "KiCad")(uri "${KIPRJMOD}/Motorola PIA.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_Dragon")(type "KiCad")(uri "${KIPRJMOD}/Memory_Dragon.kicad_sym")(options "")(descr ""))
+)
