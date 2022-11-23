@@ -1,0 +1,6 @@
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Note"
+"1","1","JP1","Jumper_3_Bridged12","Jumper:Jumper_3_Bridged12","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal","~",""
+"2","3","R1, R2, R3","4K7","Device:R_Small","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Not required if JP2 bridged"
+"3","1","U1","68A364","Memory_Dragon:68A364","Package_DIP:DIP-24_W15.24mm","",""
+"4","1","U2","74LVC1G00","74xGxx:74LVC1G00","Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering","http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf","Not required if JP2 bridged"
+"5","1","U3","28C256","Memory_EEPROM:28C256","Package_DIP:DIP-28_W15.24mm","http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf",""
