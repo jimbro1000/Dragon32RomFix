@@ -617,8 +617,6 @@
     (uuid 9be80db2-f275-4ed1-bbad-007dffd495f9)
   )
 
-  (no_connect (at 175.5648 76.3016) (uuid 7bebd986-305f-40e8-b099-67b1deb8f358))
-
   (wire (pts (xy 144.8816 24.384) (xy 142.2908 24.384))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1712bce1-82b2-4061-8271-332eb75bb1a6)
@@ -1266,6 +1264,24 @@
     (pin "3" (uuid 12ee4c41-d1e1-469f-ba31-fd13d486e748))
   )
 
+  (symbol (lib_id "power:+5V") (at 175.5648 76.3016 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 5e38ea97-3af7-4f1d-97a5-960f32b8d19a)
+    (property "Reference" "#PWR?" (id 0) (at 179.3748 76.3016 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (id 1) (at 169.926 74.676 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 175.5648 76.3016 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 175.5648 76.3016 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 495539f3-8595-4c55-9ff7-2dd2c81d5eff))
+  )
+
   (symbol (lib_id "Device:R_Small") (at 128.4224 101.2444 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8595fc95-a608-4da1-ae14-3fc92ad0137b)
@@ -1391,6 +1407,9 @@
     )
     (path "/133c8eb5-7d5b-46e3-adb5-1bcd4c479317"
       (reference "#PWR0106") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/5e38ea97-3af7-4f1d-97a5-960f32b8d19a"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/9839a238-6b00-4e40-8428-3535b25b1d51"
       (reference "J1") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")

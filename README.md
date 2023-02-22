@@ -64,7 +64,7 @@ $6000-$7FFF => ROM2 1-0
 | -------- | --------- |
 | R1, R2, R3 | 4K7 0805 |
 | U1 | 2 x 12 position 2.54mm pin header | 
-| U2 | 74LVC1G00 SOT-353 | 
+| U2 | 74AHCT1G00 SOT-353 | 
 | U3 | DIP-28 socket | 
 | JP1 | 3-pin right-angle 2.54mm pin header |
 
